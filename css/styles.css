@@ -5,6 +5,13 @@
     --preto: #0000;
   }
 
+body,.bg-body-tertiary,.container-fluid{
+  background-color: var(--azul-claro);
+  color: var(--branco);
+  margin: 0;
+  padding: 0;
+}
+
 .wpp{
     background-color: var(--marrom);
     color: var(--branco);
@@ -13,6 +20,19 @@
     padding: 8px;
     border-radius: 20px;
     
+}
+.btn-outline-success{
+  background-color: var(--marrom);
+  color: var(--branco);
+  height: 48px;
+  width: 364px;
+  border-radius: 50px;
+  font-family: "DM Sans";
+  border: none;
+}
+.btn-outline-success:hover{
+  background-color: rgb(59, 36, 4);
+  ;
 }
 
 /* mudanca */
