@@ -1,0 +1,19 @@
+:root {
+    --marrom: #52402A;
+    --azul-claro: #D4E1E9;
+    --branco: #FFFFFF;
+    --preto: #0000;
+  }
+
+.wpp{
+    background-color: var(--marrom);
+    color: var(--branco);
+    border: 0;
+    font-family: 'DM Sans';
+    padding: 8px;
+    border-radius: 20px;
+    
+}
+
+/* mudanca */
+
