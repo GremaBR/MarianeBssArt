@@ -21,6 +21,40 @@ body,.bg-body-tertiary,.container-fluid{
     border-radius: 20px;
     
 }
+
+.container-fluid{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+.offcanvas.offcanvas-start{
+  width: 300px;
+}
+
+.logo-sidebar{
+  width: 87px;
+  height: 49px;
+  margin-left: auto;
+
+}
+
+.nav-link, .nav-item{
+  font-family: "DM Sans";
+  font-weight: 600;
+}
+.item.nav-link{
+  background-color: var(--azul-claro);
+  margin-bottom: 8px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
 .btn-outline-success{
   background-color: var(--marrom);
   color: var(--branco);
@@ -30,10 +64,14 @@ body,.bg-body-tertiary,.container-fluid{
   font-family: "DM Sans";
   border: none;
 }
+
 .btn-outline-success:hover{
   background-color: rgb(59, 36, 4);
-  ;
+  
 }
 
+.nav-item{
+  flex-direction: row;
+}
 /* mudanca */
 
