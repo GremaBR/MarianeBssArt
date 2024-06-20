@@ -1,77 +1,119 @@
 :root {
-    --marrom: #52402A;
-    --azul-claro: #D4E1E9;
-    --branco: #FFFFFF;
-    --preto: #0000;
-  }
+  --marrom: #52402A;
+  --azul-claro: #D4E1E9;
+  --branco: #FFFFFF;
+  --preto: #0000;
+}
 
-body,.bg-body-tertiary,.container-fluid{
+body,
+.bg-body-tertiary,
+.container-fluid {
   background-color: var(--azul-claro);
-  color: var(--branco);
   margin: 0;
   padding: 0;
 }
 
-.wpp{
-    background-color: var(--marrom);
-    color: var(--branco);
-    border: 0;
-    font-family: 'DM Sans';
-    padding: 8px;
-    border-radius: 20px;
-    
+
+.img-header {
+  padding: 13px;
 }
 
-.container-fluid{
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.navbar-toggler{
+/* ------------------- navbar ------------------- */
+.navbar-toggler {
   border: none;
 }
 
-.offcanvas.offcanvas-start{
+.offcanvas.offcanvas-start {
   width: 300px;
 }
 
-.logo-sidebar{
+.logo-sidebar {
   width: 87px;
   height: 49px;
   margin-left: auto;
-
 }
 
-.nav-link, .nav-item{
+.nav-link,
+.nav-item {
   font-family: "DM Sans";
   font-weight: 600;
 }
-.item.nav-link{
+
+.item.nav-link {
   background-color: var(--azul-claro);
   margin-bottom: 8px;
   border-radius: 8px;
   padding: 10px;
 }
 
-.btn-outline-success{
+.btn-outline-success {
   background-color: var(--marrom);
   color: var(--branco);
   height: 48px;
-  width: 364px;
+  width: 320px;
   border-radius: 50px;
   font-family: "DM Sans";
   border: none;
+  margin: 20px;
 }
 
-.btn-outline-success:hover{
-  background-color: rgb(59, 36, 4);
-  
+/* ---------------------------------------------- */
+
+
+
+/* -------------------- main -------------------- */
+main {
+  background-color: var(--azul-claro);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 
-.nav-item{
-  flex-direction: row;
+.corpo img {
+  width: 100% auto;
+  height: 100% auto;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 auto;
 }
-/* mudanca */
 
+/* ------------------------------------------------ */
+
+
+
+/* -------------------- footer -------------------- */
+footer {
+  background-image: url(/ProjetoMarianeBssArt/img/footer.png);
+  background-size: cover;
+  color: var(--branco);
+  font-family: "Quicksand";
+  padding: 25px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--branco);
+  justify-content: flex-start;
+  display: flex;
+}
+
+.footer-link,
+a {
+  margin-bottom: 10px auto;
+}
+
+.footer-link img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px auto;
+}
+
+/* ------------------------------------------------ */
