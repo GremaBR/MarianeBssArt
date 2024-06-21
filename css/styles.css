@@ -80,7 +80,6 @@ main {
 .corpo {
   color: var(--branco);
   font-family: Simonetta;  /* Importar */
-  display: flex;
 }
 
 .frase p {
@@ -93,6 +92,10 @@ main {
   flex-direction: column;
 }
 
+.hr-frase{
+  width: 490px;
+  height: 38px;
+}
 
 /* ------------------------------------------------ */
 
@@ -100,12 +103,12 @@ main {
 
 /* -------------------- footer -------------------- */
 footer {
-  background-image: url(/ProjetoMarianeBssArt/img/footer.png);
+  background-image: url(../img/footer.png);
   background-size: cover;
   color: var(--branco);
   font-family: "Quicksand";
   padding: 25px;
-  position: fixed;
+  position: fixed-bottom;
   bottom: 0;
   width: 100%;
 }
