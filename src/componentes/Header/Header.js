@@ -6,6 +6,7 @@ import IconTelaDePintura from '../../img/icons/tela-de-pintura.png';
 import IconLapis from '../../img/icons/lapis.png';
 import IconCompra from '../../img/icons/comprar.png';
 import './Header.css';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
@@ -20,7 +21,7 @@ function Header() {
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <img src={Assinatura} class="img-header"/>
+                    <Link to="/"><img src={Assinatura} class="img-header"/></Link>
 
                         <form class="d-flex" role="search">
                             <button class="btn btn-outline-success" type="submit">Entre em contato pelo WhatsApp</button>
@@ -38,35 +39,35 @@ function Header() {
                                         <a class="nav-link active" aria-current="page">Principais</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link item" href="/ProjetoMarianeBssArt/html/home.html">
+                                        <Link class="nav-link item" to="/">
                                             <img src={IconCasa}/>
                                                 Home
-                                        </a>
-                                        <a class="nav-link item" href="/ProjetoMarianeBssArt/html/sobre-mim.html">
+                                        </Link>
+                                        <Link class="nav-link item" to="/about">
                                             <img src={IconMulher}/>
                                                 Sobre mim
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link active" aria-current="page">Artes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link item" href="#">
+                                        <Link class="nav-link item" to="/aquarela">
                                             <img src={IconAquarela} />
                                                 Aquarela
-                                        </a>
-                                        <a class="nav-link item" href="#">
+                                        </Link>
+                                        <Link class="nav-link item" to="/tela">
                                             <img src={IconTelaDePintura} />
                                                 Telas
-                                        </a>
-                                        <a class="nav-link item" href="#">
+                                        </Link>
+                                        <Link class="nav-link item" to="/grafite">
                                             <img src={IconLapis} />
                                                 Grafite
-                                        </a>
-                                        <a class="nav-link item" href="#">
+                                        </Link>
+                                        <Link class="nav-link item" to="/">
                                             <img src={IconCompra} />
                                                 Artes Disponíveis
-                                        </a>
+                                        </Link>
                                     </li>
 
                                 </ul>
