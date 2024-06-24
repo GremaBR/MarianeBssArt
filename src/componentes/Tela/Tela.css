@@ -1,0 +1,45 @@
+:root {
+    --marrom: #52402A;
+    --azul-claro: #D4E1E9;
+    --branco: #FFFFFF;
+    --preto: #0000;
+}
+
+.container {
+    padding: 5%;
+    width: 100%;
+    flex-direction: column;
+    align-self: self-start;
+}
+
+h2 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    color: var(--marrom);
+    margin-bottom: 20px;
+}
+
+.tela {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    transition: transform 0.2s;
+    width: 20%;
+    height: 20% auto;
+}
+
+
+.tela:hover {
+    transform: scale(1.05);
+}
+
+
+.row {
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+}
+
+.horizontal {
+    width: 25%;
+    height: 25%;
+}
