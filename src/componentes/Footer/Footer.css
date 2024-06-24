@@ -4,46 +4,51 @@
   --branco: #FFFFFF;
   --preto: #0000;
 }
-footer {
-    background-image: url(../../img/footer.png);
-    background-size: cover;
-    color: var(--branco);
-    font-family: "Quicksand";
-    padding: 25px;
-    position: fixed-bottom;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  .footer-items {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .footer-link {
-    text-decoration: none;
-    color: var(--branco);
-    justify-content: flex-start;
-    display: flex;
-  }
-  
-  .footer-link,
-  a {
-    margin-bottom: 10px auto;
-  }
-  
-  .footer-link img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px auto;
-  }
 
-  /* arrumar style */
-  /* <p class="mariane-footer" style="color: var(--azul-claro); font-size: 36px; font-weight: bold;"> */
-  /* <p style="font-weight: 100;">
-  “Criatividade é conectar o que parece desconectado.”<br />
-  - Willian Plomer
-  </p> */
-  /* <p class="contatos" style="color: var(--azul-claro); font-weight: 600;  */
-  /* <div class="direita" style="font-weight: 100; color: white;">
-  <p class="contatos" style="color: var(--azul-claro); font-weight: 600; "> CONTATOS </p> */
+footer {
+  background-image: url(../../img/footer.png);
+  background-size: cover;
+  color: var(--branco);
+  font-family: "Quicksand";
+  padding: 25px;
+  position: fixed-bottom;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--branco);
+  justify-content: flex-start;
+  display: flex;
+}
+
+.footer-link img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.mariane-footer {
+  color: var(--azul-claro);
+  font-size: 36px;
+  font-weight: bold;
+}
+
+P {
+  font-weight: 100;
+}
+
+.contatos {
+  color: var(--azul-claro);
+  font-weight: 600;
+}
+
+.direita {
+  font-weight: 100; color: white;
+}
