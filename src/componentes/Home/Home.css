@@ -8,35 +8,53 @@
 main {
     background-color: var(--azul-claro);
     width: 100%;
-    margin: 0 auto;
-    padding: 0 auto;
+    height: 100%;
+
   }
   
   
-  .corpo img {
-    width: 100% auto;
-    height: 100% auto;
+  .float-left {
+    width: 60%;
+    height: 60%;
     display: flex;
-    justify-content: center;
+    margin-left: 35%;
   }
   
   .corpo {
+    padding: 6%;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
     color: var(--branco);
-    font-family: Simonetta;  /* Importar */
+    font-family: Simonetta;
+    font-style: italic;
+    text-shadow: #000 1px 1px 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     /* Importar */
   }
   
-  .frase p {
+  .p-frase {
     width: 400px;
     font-size: 50px;
+    position: absolute;
   }
   
   .frase {
     display: flex;
     flex-direction: column;
+    position: absolute;
   }
   
   .hr-frase{
     width: 490px;
     height: 38px;
+    display: flex;
+    margin-top: 180px;
   }
-  
+
+  p.autor{
+    font-size: 30px; 
+    font-weight: 100px;
+  }

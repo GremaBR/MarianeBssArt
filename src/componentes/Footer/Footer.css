@@ -7,13 +7,13 @@
 
 footer {
   background-image: url(../../img/footer.png);
-  background-size: cover;
+  background-size:cover;
   color: var(--branco);
   font-family: "Quicksand";
   padding: 25px;
-  position: fixed-bottom;
   bottom: 0;
   width: 100%;
+  position:static;
 }
 
 .footer-items {

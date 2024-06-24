@@ -5,13 +5,7 @@
   --preto: #0000;
 }
 
-body,
-.bg-body-tertiary,
-.container-fluid {
-  background-color: var(--azul-claro);
-  margin: 0;
-  padding: 0;
-}
+
 
 
 /* ------------------- navbar ------------------- */
