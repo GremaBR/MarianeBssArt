@@ -6,10 +6,10 @@
 }
 
 .container {
-    text-align: center;
     padding: 5%;
     width: 100%;
     flex-direction: column;
+    align-self: self-start;
 }
 
 h2 {
@@ -17,19 +17,21 @@ h2 {
     font-weight: bold;
     color: var(--marrom);
     margin-bottom: 20px;
-    align-self: start;
 }
 
-.aquarela {
-    margin-bottom: 20px;
+.grafite {
+    margin-bottom: 40px;
+    margin-top: 20px;
     transition: transform 0.2s;
     width: 20%;
     height: 20% auto;
 }
 
-.aquarela:hover {
+
+.grafite:hover {
     transform: scale(1.05);
 }
+
 
 .row {
     justify-content: center;
