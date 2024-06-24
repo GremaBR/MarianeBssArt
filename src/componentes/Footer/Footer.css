@@ -4,19 +4,26 @@
   --branco: #FFFFFF;
   --preto: #0000;
 }
-
+html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 footer {
   background-image: url(../../img/footer.png);
   background-size:cover;
   color: var(--branco);
   font-family: "Quicksand";
-  padding: 25px;
-  bottom: 0;
+  padding: 25px 0;
   width: 100%;
   position:static;
+
 }
 
 .footer-items {
+  padding: 0 4%;
+  margin: auto;
+  max-width: 1400px;
   display: flex;
   justify-content: space-between;
 }
