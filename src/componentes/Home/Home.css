@@ -1,0 +1,42 @@
+:root {
+    --marrom: #52402A;
+    --azul-claro: #D4E1E9;
+    --branco: #FFFFFF;
+    --preto: #0000;
+  }
+
+main {
+    background-color: var(--azul-claro);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  
+  
+  .corpo img {
+    width: 100% auto;
+    height: 100% auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .corpo {
+    color: var(--branco);
+    font-family: Simonetta;  /* Importar */
+  }
+  
+  .frase p {
+    width: 400px;
+    font-size: 50px;
+  }
+  
+  .frase {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hr-frase{
+    width: 490px;
+    height: 38px;
+  }
+  

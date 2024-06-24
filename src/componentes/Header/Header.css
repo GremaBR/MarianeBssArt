@@ -1,0 +1,49 @@
+:root {
+    --marrom: #52402A;
+    --azul-claro: #D4E1E9;
+    --branco: #FFFFFF;
+    --preto: #0000;
+  }
+  
+.img-header {
+    padding: 13px;
+  }
+  
+.navbar-toggler {
+    border: none;
+  }
+  
+  .offcanvas.offcanvas-start {
+    width: 300px;
+  }
+  
+  .logo-sidebar {
+    width: 87px;
+    height: 49px;
+    margin-left: auto;
+  }
+  
+  .nav-link,
+  .nav-item {
+    font-family: "DM Sans";
+    font-weight: 600;
+  }
+  
+  .item.nav-link {
+    background-color: var(--azul-claro);
+    margin-bottom: 8px;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .btn-outline-success {
+    background-color: var(--marrom);
+    color: var(--branco);
+    height: 48px;
+    width: 320px;
+    border-radius: 50px;
+    font-family: "DM Sans";
+    border: none;
+    margin: 20px;
+  }
+  
