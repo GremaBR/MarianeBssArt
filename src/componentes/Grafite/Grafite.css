@@ -5,33 +5,17 @@
     --preto: #0000;
 }
 
-.container {
-    padding: 5%;
-    width: 100%;
-    flex-direction: column;
-    align-self: self-start;
-}
-
-h2 {
-    font-family: "Quicksand", sans-serif;
-    font-weight: bold;
-    color: var(--marrom);
-    margin-bottom: 20px;
-}
-
 .grafite {
     margin-bottom: 40px;
     margin-top: 20px;
     transition: transform 0.2s;
     width: 20%;
-    height: 20% auto;
+    height: 20%;
 }
-
 
 .grafite:hover {
     transform: scale(1.05);
 }
-
 
 .row {
     justify-content: center;

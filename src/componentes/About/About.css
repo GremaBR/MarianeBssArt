@@ -5,76 +5,41 @@
     --preto: #0000;
 }
 
-main {
-    background-color: var(--azul-claro);
-    width: 100%;
-    height: 100%;
+.imagem,.contact-info{
+    margin-right: 200px;
 }
 
 .container {
-    display: flex;
+    display: flexbox;
     justify-content: space-between;
 }
 
-.social {
+
+.alinhar{
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
 }
 
-.alinhar-img-links{
+.contact-info .footer-link {
     display: flex;
     align-items: center;
-    flex-direction: column;
-}
-
-.icones {
-    width: 35px;
-    height: 35px;
-    margin-right: 10px;
-}
-
-.links {
-    display: flex;
-    margin-bottom: 10px;
-}
-
-p {
+    text-decoration: none;
+    color: inherit;
     color: var(--branco);
-    font-size: 18px;
 }
 
-.linha {
+
+.img-fluid {
+    margin-bottom: 3%;
+}
+
+.text-center {
     color: var(--marrom);
-    width: 733px;
-    display: flex;
-}
-
-.sobre {
-    color: var(--marrom);
-    width: 790px ;
-}
-
-.texto-sobre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.texto-sobre p {
-    font-weight: 400;
     font-size: 20px;
 }
 
-a{
-    color: var(--branco);
-    text-decoration: none;
-    transition: color .7s;
-
-}
-
-a:hover{
+.Hr {
     color: var(--marrom);
+    display: flex;
+    margin-bottom: 24px;
 }
