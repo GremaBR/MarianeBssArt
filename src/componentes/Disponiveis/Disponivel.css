@@ -75,7 +75,7 @@ h1 {
     align-self: start;
 }
 
-p {
+.p {
     color: var(--marrom);
     font-size: 25px;
     align-self: start;
@@ -95,8 +95,7 @@ p {
     font-size: 24px;
     margin-top: 20px;
     font-family: Quicksand;
-    min-width: 300px;
-    
+    max-width: 300px;
 }
 
 .botao {

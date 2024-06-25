@@ -138,10 +138,10 @@ function Disponivel() {
                         <img src={arteSelecionada.src} alt={arteSelecionada.titulo} />
                         <div className='ajustar'>
                             <h1>{arteSelecionada.titulo}</h1>
-                            <p>{arteSelecionada.descricao}</p>
-                            <p>{arteSelecionada.altura}</p>
-                            <p>{arteSelecionada.largura}</p>
-                            <p>{arteSelecionada.dimensao}</p>
+                            <p className='p'>{arteSelecionada.descricao}</p>
+                            <p className='p'>{arteSelecionada.altura}</p>
+                            <p className='p'>{arteSelecionada.largura}</p>
+                            <p className='p'>{arteSelecionada.dimensao}</p>
                             <div className='botao'>
                                 <button className='encomendar'>Encomendar</button>
                             </div>
