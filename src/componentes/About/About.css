@@ -5,32 +5,17 @@
     --preto: #0000;
 }
 
-.imagem,.contact-info{
-    margin-right: 200px;
-}
-
-.container {
-    display: flexbox;
-    justify-content: space-between;
-}
-
-
 .alinhar{
     display: flex;
     flex-direction: column;
-}
 
+}
 .contact-info .footer-link {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: inherit;
     color: var(--branco);
-}
-
-
-.img-fluid {
-    margin-bottom: 3%;
 }
 
 .text-center {

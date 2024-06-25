@@ -9,31 +9,24 @@
 .bg-body-tertiary,
 .container-fluid {
   background-color: var(--azul-claro);
-  margin: 0;
   padding: 0;
 }
-  
-.img-header {
-    padding: 13px;
-  }
-  
+
 .navbar-toggler {
     border: none;
   }
   
   .offcanvas.offcanvas-start {
-    width: 300px;
+    max-width: 300px;
   }
   
   .logo-sidebar {
-    width: 87px;
-    height: 49px;
+    max-width: 90px;
     margin-left: auto;
   }
   
   .nav-link,
   .nav-item {
-    font-family: "DM Sans";
     font-weight: 600;
   }
   
@@ -52,6 +45,5 @@
     border-radius: 50px;
     font-family: "DM Sans";
     border: none;
-    margin: 20px;
   }
   
