@@ -39,7 +39,7 @@ function Footer() {
             Balneário Camboriú, SC, Brasil
           </a>
 
-          <a className="footer-link" href="#">
+          <a className="footer-link" href="https://www.instagram.com/mariane_bss_art/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"  target='_blank' >
             <img src={iconInstagram} alt="Instagram Icon" />
             @mariane_bss_art
           </a>
