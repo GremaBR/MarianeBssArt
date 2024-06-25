@@ -64,7 +64,7 @@ function Header() {
                                             <img src={IconLapis} />
                                                 Grafite
                                         </Link>
-                                        <Link class="nav-link item" to="/">
+                                        <Link class="nav-link item" to="/disponiveis">
                                             <img src={IconCompra} />
                                                 Artes Disponíveis
                                         </Link>

@@ -4,20 +4,15 @@
   --branco: #FFFFFF;
   --preto: #0000;
 }
-html{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
 footer {
   background-image: url(../../img/footer.png);
-  background-size:cover;
+  background-size: cover;
+  background-position: center;
   color: var(--branco);
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   padding: 25px 0;
   width: 100%;
-  position:static;
-
 }
 
 .footer-items {
@@ -47,15 +42,7 @@ footer {
   font-weight: bold;
 }
 
-P {
-  font-weight: 100;
-}
-
 .contatos {
   color: var(--azul-claro);
   font-weight: 600;
-}
-
-.direita {
-  font-weight: 100; color: white;
 }

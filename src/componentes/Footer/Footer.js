@@ -6,42 +6,41 @@ import "./Footer.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-
 function Footer() {
   return (
     <footer>
-      <div class="footer-items">
-        <div class="esquerda">
-          <p class="mariane-footer">
+      <div className="footer-items">
+        <div className="esquerda">
+          <p className="mariane-footer">
             Mariane BSS Art
           </p>
           <p>
             “Criatividade é conectar o que parece desconectado.”<br />
-            - Willian Plomer
+            Willian Plomer
           </p>
         </div>
 
-        <div class="direita">
-          <p class="contatos"> CONTATOS </p>
+        <div className="direita">
+          <p className="contatos"> CONTATOS </p>
           <hr />
 
-          <a class="footer-link" href="#">
-            <img src={iconFone} />
+          <a className="footer-link" href="#">
+            <img src={iconFone} alt="Fone Icon" />
             +55 (47) 988719165
           </a>
 
-          <a class="footer-link" href="#">
-            <img src={iconEmail} />
+          <a className="footer-link" href="#">
+            <img src={iconEmail} alt="Email Icon" />
             marianebasseggio@gmail.com
           </a>
 
-          <a class="footer-link" href="#">
-            <img src={iconEndereco} />
+          <a className="footer-link" href="#">
+            <img src={iconEndereco} alt="Endereco Icon" />
             Balneário Camboriú, SC, Brasil
           </a>
 
-          <a class="footer-link" href="#">
-            <img src={iconInstagram} />
+          <a className="footer-link" href="#">
+            <img src={iconInstagram} alt="Instagram Icon" />
             @mariane_bss_art
           </a>
         </div>

@@ -7,6 +7,7 @@ import About from './componentes/About/About';
 import Aquarela from './componentes/Aquarela/Aquarela';
 import Grafite from './componentes/Grafite/Grafite';
 import Tela from './componentes/Tela/Tela';
+import Disponivel from './componentes/Disponiveis/Disponivel';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/aquarela" element={<Aquarela />} />
                 <Route path="/grafite" element={<Grafite />} />
                 <Route path="/tela" element={<Tela />} />
+                <Route path="/disponiveis" element={<Disponivel />} />
             </Routes>
             <Footer />
         </BrowserRouter>
