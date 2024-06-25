@@ -16,7 +16,7 @@ function Footer() {
           </p>
           <p>
             “Criatividade é conectar o que parece desconectado.”<br />
-            Willian Plomer
+           -  Willian Plomer
           </p>
         </div>
 
