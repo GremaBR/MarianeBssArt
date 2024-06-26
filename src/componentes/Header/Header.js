@@ -25,7 +25,9 @@ function Header() {
                         <Link to="/"><img src={Assinatura} class="img-header" /></Link>
 
                         <form class="d-flex" role="search">
-                            <button class="btn btn-outline-success" type="submit">Entre em contato pelo WhatsApp</button>
+                            <a href='https://whatsform.com/vJ5b2w' className='Button'>
+                                Entre em contato pelo WhatsApp
+                            </a>
                         </form>
                     </div>
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -73,7 +75,10 @@ function Header() {
 
                             </ul>
                             <form class="d-flex" role="search">
-                                <button class="btn btn-outline-success" type="submit">Encomende sua arte</button>
+                                <a href='https://whatsform.com/vJ5b2w' className='Button'>
+                                    Encomende sua arte
+                                </a>
+
                             </form>
                         </div>
                     </div>

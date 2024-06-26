@@ -27,12 +27,6 @@ h2 {
     height: 20% auto;
 }
 
-
-.tela:hover {
-    transform: scale(1.05);
-}
-
-
 .row {
     justify-content: center;
     display: flex;

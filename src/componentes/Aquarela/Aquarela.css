@@ -27,10 +27,6 @@ h2 {
     height: 20% auto;
 }
 
-.aquarela:hover {
-    transform: scale(1.05);
-}
-
 .row {
     justify-content: center;
     display: flex;
@@ -38,6 +34,6 @@ h2 {
 }
 
 .horizontal {
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
 }

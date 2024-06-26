@@ -12,11 +12,6 @@
     width: 20%;
     height: 20%;
 }
-
-.grafite:hover {
-    transform: scale(1.05);
-}
-
 .row {
     justify-content: center;
     display: flex;
@@ -24,6 +19,11 @@
 }
 
 .horizontal {
-    width: 30%;
+    width: 40%;
+    height: 30%;
+}
+
+.vertical {
+    width: 20%;
     height: 30%;
 }

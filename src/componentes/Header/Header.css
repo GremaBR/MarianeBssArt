@@ -56,22 +56,23 @@ header{
     padding: 10px;
   }
 
-form .btn-outline-success{
+form .Button{
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
   padding: 15px ;
-  font-size: 80%;
+  font-size: 90%;
   margin-right: 10px;
   width: 100%;
 }
   
-  .btn-outline-success {
+  .Button {
     background-color: var(--marrom);
     color: var(--branco);
     border-radius: 50px;
     font-family: "DM Sans";
     border: none;
+    text-decoration: none;
   }
   

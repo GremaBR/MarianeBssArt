@@ -5,11 +5,6 @@
     --preto: #0000;
 }
 
-.container {
-    padding: 5%;
-    width: 100%;
-}
-
 h2 {
     font-family: "Quicksand", sans-serif;
     font-weight: bold;
@@ -17,10 +12,10 @@ h2 {
 }
 
 .disponivel {
-    margin-bottom: 40px;
+    margin-bottom: 5px;
     transition: transform 0.2s;
     width: 20%;
-    height: 20% auto;
+    height: 20%;
 }
 
 .disponivel:hover {
@@ -49,22 +44,38 @@ h2 {
     align-items: center;
     justify-content: center;
 }
-
 .overlay-content {
     background: #DBDAD6;
-    padding: 20px;
     border-radius: 8px;
     overflow: auto;
     display: flex;
+    width: 60%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
-.overlay-content img {
-    padding: 20px;
+.imagem-content {
+    display: flex;
+    max-width: 80%;
+    max-height: 90%;
+    padding: 10px;
+}
+
+.imagem-content img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
 }
 
 .ajustar{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    width: auto;
+    height: auto;
 }
 
 h1 {
@@ -80,8 +91,100 @@ h1 {
     font-size: 25px;
     align-self: start;
     font-family: Quicksand;
-    max-width: 600px;
-    min-width: 600px;
+}
+
+@media (max-width: 1280px) {
+    .overlay-content {
+        width: 80%;
+        height: 70%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .p {
+        font-size: 20px;
+    }
+
+    .imagem-content {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .overlay-content {
+        width: 90%;
+        height: 40%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .p {
+        font-size: 18px;
+    }
+
+    .imagem-content {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .overlay-content {
+        width: 90%;
+        height: 90%;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+
+    .imagem-content {
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .overlay-content {
+        width: 80%;
+        height: auto;
+        padding: 5px;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .p {
+        font-size: 14px;
+    }
+
+    .imagem-content {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
 }
 
 .encomendar {
