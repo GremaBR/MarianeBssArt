@@ -5,14 +5,33 @@
     --preto: #0000;
   }
 
-  body,
+
 .bg-body-tertiary,
 .container-fluid {
   background-color: var(--azul-claro);
   padding: 0;
 }
 
-.navbar-toggler {
+header{
+  max-width: 100%;
+}
+
+.header{
+  padding: 0;
+  margin: 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-header{
+  padding: 10px;
+  width: 80%;
+  height: 80%;
+}
+.navbar-toggler,.navbar-toggler-icon {
     border: none;
   }
   
@@ -36,12 +55,21 @@
     border-radius: 8px;
     padding: 10px;
   }
+
+form .btn-outline-success{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 15px ;
+  font-size: 80%;
+  margin-right: 10px;
+  width: 100%;
+}
   
   .btn-outline-success {
     background-color: var(--marrom);
     color: var(--branco);
-    height: 48px;
-    width: 320px;
     border-radius: 50px;
     font-family: "DM Sans";
     border: none;
