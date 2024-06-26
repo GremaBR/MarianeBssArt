@@ -28,6 +28,7 @@ import Img29 from '../../img/Imagem29.jpg';
 import Img30 from '../../img/Imagem30.jpg';
 import Img31 from '../../img/Imagem31.jpg';
 import WhatsAppButton from '../Pedido/Pedido.js';
+import '../Pedido/Pedido.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -279,7 +280,7 @@ function Disponivel() {
                             <p className='p'>{arteSelecionada.tecnica}</p>
                             <p className='p'>{arteSelecionada.dimensoes}</p>
                             <div className='botao'>
-                                <WhatsAppButton produto={arteSelecionada.titulo} />
+                                <WhatsAppButton produto={arteSelecionada.titulo + arteSelecionada.tecnica + arteSelecionada.dimensoes} />
                             </div>
                         </div>
                     </div>
