@@ -9,8 +9,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 function Footer() {
   return (
     <footer>
-      <div class="container">
-        <div class="row">
+     <div class="row">
           <div class="col-md-6">
             <p class="mariane-footer display-flex">
               Mariane BSS Art
@@ -46,7 +45,6 @@ function Footer() {
             </a>
           </div>
         </div>
-      </div>
     </footer>
   );
 }

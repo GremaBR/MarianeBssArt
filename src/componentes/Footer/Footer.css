@@ -6,18 +6,16 @@
 }
 
 footer {
+  background-image: url(../../img/footer.png);
   background-size: cover;
   background-position: center;
   color: var(--branco);
   font-family: "Quicksand", sans-serif;
-  width: 100%;
-  background-image: url(../../img/footer.png);
-  bottom: 0;
+  padding: 20px;
 }
 
 .footer-link {
   display: flex;
-  margin-bottom: 5px;
   text-decoration: none;
   color: var(--branco);
   align-self: start;
@@ -25,6 +23,7 @@ footer {
 
 .footer-link img {
   margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 .mariane-footer {
@@ -42,5 +41,4 @@ footer {
 .display-flex {
   display: flex;
   text-align: justify;
-
 }

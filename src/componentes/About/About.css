@@ -15,7 +15,11 @@
     align-items: center;
     text-decoration: none;
     color: inherit;
-    color: var(--branco);
+    color: var(--marrom);
+}
+
+.contact-info{
+    margin-top: 20px;
 }
 
 .text-center {
