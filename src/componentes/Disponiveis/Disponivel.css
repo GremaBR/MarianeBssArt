@@ -49,16 +49,17 @@ h2 {
     border-radius: 8px;
     overflow: auto;
     display: flex;
-    width: 60%;
-    height: 50%;
+    max-width: 80%;
+    max-height: 98%;
     align-items: center;
     justify-content: center;
+    padding: 1%;
 }
 
 .imagem-content {
     display: flex;
     max-width: 80%;
-    max-height: 90%;
+    max-height: 100%;
     padding: 10px;
 }
 
