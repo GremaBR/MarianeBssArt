@@ -43,7 +43,7 @@ const artes = [
     },
     {
         src: Img4,
-        titulo: 'O uiverso',
+        titulo: 'O universo',
         descricao:  "Andando pelo universo Conhecendo seus desejos  Na imensidão das galáxias \n Relutando seus defeitos. \nDa alma pura ternura \n Pelo asfalto serpenteia No doce código de dilúvio Cultuando o subúrbio Dos deleitos que a rodeia As estrelas irradiam luz E a elas me conduz \n A eterna paz ao saber Que mesmo ao amanhecer Continuarei ainda bela. -Mariane B.",
         tecnica: 'Técnica: Óleo sobre chapa de madeira ',
         dimensoes: 'Dimensões: 40x50cm',
