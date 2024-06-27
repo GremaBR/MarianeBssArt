@@ -38,83 +38,87 @@ const artes = [
     {
         src: Img3,
         titulo: 'Movimento',
-        tecnica: 'Técnica: Óleo sobre chapa de madeira ', 
-        descricao: "Ano e local de criação: 2019, Balneário Camboriú – SC. Fez parte da exposição “águas profundas” (Coletiva. Dez 2019. Bravamall Shopping. Itajaí SC-BR)",
+        descricao: "Fez parte da exposição “águas profundas” (Coletiva. Dez 2019. Bravamall Shopping. Itajaí SC-BR)",
+        tecnica: 'Técnica: Óleo sobre chapa de madeira ',
+        ano: 'Ano e local de criação: 2019, Balneário Camboriú – SC.',
         dimensoes: 'Dimensões: 50x50cm',
     },
     {
         src: Img4,
         titulo: 'O universo',
-        descricao:  "Andando pelo universo Conhecendo seus desejos  Na imensidão das galáxias \n Relutando seus defeitos. \nDa alma pura ternura \n Pelo asfalto serpenteia No doce código de dilúvio Cultuando o subúrbio Dos deleitos que a rodeia As estrelas irradiam luz E a elas me conduz \n A eterna paz ao saber Que mesmo ao amanhecer Continuarei ainda bela. -Mariane B.",
+        descricao: "Andando pelo universo Conhecendo seus desejos  Na imensidão das galáxias \n Relutando seus defeitos. \nDa alma pura ternura \n Pelo asfalto serpenteia No doce código de dilúvio Cultuando o subúrbio Dos deleitos que a rodeia As estrelas irradiam luz E a elas me conduz \n A eterna paz ao saber Que mesmo ao amanhecer Continuarei ainda bela. -Mariane B.",
         tecnica: 'Técnica: Óleo sobre chapa de madeira ',
+        ano: 'Ano e local de criação: 2019, Balneário Camboriú – SC.',
         dimensoes: 'Dimensões: 40x50cm',
     },
     {
         src: Img5,
         titulo: 'Aromata',
-        descricao: 'Ano e local de criação: 2020, Balneário Camboriú – SC. Fez parte da exposição Cheiros afetivos (Coletiva Online. Dez 2020. Fabrícia Gonçalvez)  Um bálsamo para a alma    Acalma    Relembra o viver de uma tarde ensolarada     família e uma aventura por cima das águas.',
+        descricao: 'Fez parte da exposição Cheiros afetivos (Coletiva Online. Dez 2020. Fabrícia Gonçalvez)  Um bálsamo para a alma    Acalma    Relembra o viver de uma tarde ensolarada     família e uma aventura por cima das águas.',
         tecnica: 'Técnica: Óleo tela painel',
+        ano: 'Ano e local de criação: 2020, Balneário Camboriú – SC.',
         dimensoes: 'Dimensões: 50x60x4cm ',
     },
     {
         src: Img7,
         titulo: '',
-        descricao: 'Ano e local de criação: 2021, Balneário Camboriú – SC. Fez parte da exposição Caminhos (Coletiva. Jul 2021. Arthousebc. Balneário Camboriú SC-BR)',
+        descricao: 'Fez parte da exposição Caminhos (Coletiva. Jul 2021. Arthousebc. Balneário Camboriú SC-BR)',
         tecnica: 'Técnica: Óleo tela',
+        ano: 'Ano e local de criação: 2021, Balneário Camboriú – SC. ',
         dimensoes: 'Dimensões: 50x60cm',
     },
     {
         src: Img8,
-         titulo: 'Mãos de artista',
+        titulo: 'Mãos de artista',
         descricao: 'Ano e local de criação: 2022, Balneário Camboriú – SC.',
         tecnica: 'Técnica: Óleo tela',
         dimensoes: 'Dimensões: 25x25cm ',
     },
     {
         src: Img9,
-         titulo: 'Jesus Cristo',
+        titulo: 'Jesus Cristo',
         descricao: 'Ano e local de criação: 2022, Balneário Camboriú – SC',
         tecnica: 'Técnica: Óleo tela',
         dimensoes: 'Dimensões: 30x40cm ',
     },
     {
         src: Img10,
-         titulo: 'Cheiro de campo',
+        titulo: 'Cheiro de campo',
         descricao: 'Ano e local de criação: 2022, Balneário Camboriú – SC',
         tecnica: 'Técnica: Óleo tela',
         dimensoes: 'Dimensões: 35x27cm ',
     },
     {
         src: Img11,
-         titulo: '',
+        titulo: '',
         descricao: 'Ano e local de criação: 2023, Balneário Camboriú – SC',
         tecnica: 'Técnica: Óleo tela',
         dimensoes: 'Dimensões: 20x20cm  ',
     },
     {
         src: Img12,
-         titulo: 'Cristo Luz sob o céu de Van Gogh',
+        titulo: 'Cristo Luz sob o céu de Van Gogh',
         descricao: 'Ano e local de criação: 2023, Balneário Camboriú – SC',
         tecnica: 'Técnica: Óleo tela',
         dimensoes: 'Dimensões: 30x40cm ',
     },
     {
         src: Img13,
-         titulo: 'Sabores',
+        titulo: 'Sabores',
         descricao: 'Ano e local de criação: 2023, Balneário Camboriú SC',
         tecnica: 'Técnica: Óleo sobre tela',
         dimensoes: 'Dimensões: 30x40cm',
     },
     {
         src: Img14,
-         titulo: 'Inspiração',
+        titulo: 'Inspiração',
         descricao: 'Ano e local de criação: 2023, Balneário Camboriú – SC',
         tecnica: 'Técnica: Óleo tela',
         dimensoes: 'Dimensões: 50x60cm ',
     },
     {
         src: Img15,
-         titulo: 'Aquele que crê em mim nunca estará sozinho',
+        titulo: 'Aquele que crê em mim nunca estará sozinho',
         descricao: 'Ano e local de criação: 2023, Balneário Camboriú – SC',
         tecnica: 'Técnica: Óleo tela',
         dimensoes: 'Dimensões: 30x40cm ',
@@ -122,112 +126,117 @@ const artes = [
 
     {
         src: Img16,
-         titulo: '',
+        titulo: '',
         descricao: 'Ano e local de criação: 2023, Balneário Camboriú SC',
         tecnica: 'Técnica: Óleo sobre tela ',
         dimensoes: 'Dimensões: 30x40,5cm',
     },
     {
         src: Img17,
-         titulo: 'Um olhar para a natureza #1',
-        descricao: 'A obra representa uma arara que veio parar aqui na rua de casa que me inspirou tanto na beleza como ao olhar com mais atenção para a causa animal e a exploração das espécies em perigo de extinção. Obra da série “um olhar para a natureza”. Ano e local de criação: 2023, Balneário Camboriú SC.',
+        titulo: 'Um olhar para a natureza #1',
+        descricao: 'A obra representa uma arara que veio parar aqui na rua de casa que me inspirou tanto na beleza como ao olhar com mais atenção para a causa animal e a exploração das espécies em perigo de extinção. Obra da série “um olhar para a natureza”.',
         tecnica: 'Técnica: Óleo sobre tela ',
+        ano: 'Ano e local de criação: 2023, Balneário Camboriú SC',
         dimensoes: 'Dimensões: 30x50cm',
     },
     {
         src: Img18,
         titulo: 'Frágil #1',
-        descricao: 'O que é o robusto em contraste com o frágil? Se um morre o outro morre... inspire expire. Inspirado na música “Inhale, exhale” da Aurora. Ano e local de criação: 2023, Balneário Camboriú – SC',
+        descricao: 'O que é o robusto em contraste com o frágil? Se um morre o outro morre... inspire expire. Inspirado na música “Inhale, exhale” da Aurora. ',
         tecnica: 'Técnica: Óleo sobre tela ',
+        ano: 'Ano e local de criação: 2023, Balneário Camboriú – SC',
         dimensoes: 'Dimensões: 20x20cm',
     },
     {
         src: Img19,
-         titulo: 'Frágil #2',
-        descricao: 'O que é o robusto em contraste com o frágil? Se um morre o outro morre... inspire expire. Inspirado na música “Inhale, exhale” da Aurora. Ano e local de criação: 2023, Balneário Camboriú – SC',
-        tecnica: 'Técnica: Óleo sobre tela ',
+        titulo: 'Frágil #2',
+        descricao: 'O que é o robusto em contraste com o frágil? Se um morre o outro morre... inspire expire. Inspirado na música “Inhale, exhale” da Aurora.',
+        tecnica: ' Ano e local de criação: 2023, Balneário Camboriú – SC',
+        ano: 'Ano e local de criação: 2023, Balneário Camboriú – SC',
         dimensoes: 'Dimensões: 20x20cm',
     },
     {
         src: Img20,
         titulo: 'Frágil #3',
-        descricao: 'O que é o robusto em contraste com o frágil? Se um morre o outro morre... inspire expire. Inspirado na música “Inhale, exhale” da Aurora. Ano e local de criação: 2023, Balneário Camboriú – SC',
+        descricao: 'O que é o robusto em contraste com o frágil? Se um morre o outro morre... inspire expire. Inspirado na música “Inhale, exhale” da Aurora.',
         tecnica: 'Técnica: Óleo sobre tela ',
+        ano: 'Ano e local de criação: 2023, Balneário Camboriú – SC',
         dimensoes: 'Dimensões: 3cm',
     },
     {
         src: Img21,
-         titulo: 'Um olhar para a natureza #002',
+        titulo: 'Um olhar para a natureza #002',
         descricao: 'Minhas inspirações para essa obra foi um print que tirei do clip de uma música para o fundo, asa de borboleta no microscópio (na faixa), mariposas, borboletas e uma frase da música “Maravilha” – Tuyo. Ano e local de criação: 2024, Balneário Camboriú – SC.',
         tecnica: 'Técnica: Spray e acríçica sobre tela ',
         dimensoes: 'Dimensões: 50x42cm',
     },
     {
         src: Img22,
-         titulo: 'Um olhar para a natureza #003',
+        titulo: 'Um olhar para a natureza #003',
         descricao: 'Ano e local de criação: 2023, Balneário Camboriú – SC',
         tecnica: 'Técnica: Óleo e bordado sobre tela ',
         dimensoes: 'Dimensões: 30x40,5cm ',
     },
     {
         src: Img23,
-         titulo: 'Um olhar para a Natureza #004',
-        descricao: 'Minha inspiração para essa obra foi justamente a quantidade de lixo que temos nos oceanos e como isso prejudica a vida marinha...Na obra vemos uma tartaruga com diversas flores ao seu redor, que representam alguns dos poluentes como a esponja, a sacola e o canudo mas também a rede de pesca que muitas vezes é descartada no mar. Data e local de criação: 2024, Balneário Camboriú SC.',
+        titulo: 'Um olhar para a Natureza #004',
+        descricao: 'Minha inspiração para essa obra foi justamente a quantidade de lixo que temos nos oceanos e como isso prejudica a vida marinha...Na obra vemos uma tartaruga com diversas flores ao seu redor, que representam alguns dos poluentes como a esponja, a sacola e o canudo mas também a rede de pesca que muitas vezes é descartada no mar.',
         tecnica: 'Técnica: Óleo sobre tela ',
+        ano: 'Ano e local de criação: 2024, Balneário Camboriú SC.',
         dimensoes: 'Dimensões: 41x48,5xm (aproximadamente)',
     },
     {
         src: Img24,
-         titulo: 'Um olhar para a natureza #005',
+        titulo: 'Um olhar para a natureza #005',
         descricao: 'Data e local de criação: 2024, Balneário Camboriú SC.',
         tecnica: 'Técnica: Acrílica e spray sobre tela ',
         dimensoes: 'Dimensões: 44,5x56cm',
     },
     {
         src: Img25,
-         titulo: 'Um olhar para a natureza #006',
+        titulo: 'Um olhar para a natureza #006',
         descricao: 'Data e local de criação: 2024, Balneário Camboriú SC.',
         tecnica: 'Técnica: Óleo e bordado sobre tela ',
         dimensoes: 'Dimensões: 30x40cm',
     },
     {
         src: Img26,
-         titulo: 'Nossa Senhora com menino Jesus',
+        titulo: 'Nossa Senhora com menino Jesus',
         descricao: 'Data e local de criação: 2024, Balneário Camboriú SC.',
         tecnica: 'Técnica: Acrílica e óleo sobre tela',
         dimensoes: 'Dimensões: 50x56cm',
     },
     {
         src: Img27,
-         titulo: '',
+        titulo: '',
         descricao: 'Data e local de criação: 2024, Balneário Camboriú SC.',
         tecnica: 'Técnica: Spray e acrílica sobre tela',
         dimensoes: 'Dimensões: 57x46cm',
     },
     {
         src: Img28,
-         titulo: '',
+        titulo: '',
         descricao: 'Ano e local de criação: 2024, Balneário Camboriú – SC.',
         tecnica: 'Técnica: Acrílica sobre tela ',
         dimensoes: 'Dimensões: 30x37,5cm ',
     },
     {
         src: Img29,
-         titulo: 'Fradinho',
+        titulo: 'Fradinho',
         descricao: 'Ano e local de criação: 2024, Balneário Camboriú – SC.',
         tecnica: 'Técnica: Óleo sobre tela ',
         dimensoes: 'Dimensões: 37,5x44,5cm ',
     },
     {
         src: Img30,
-         titulo: '',
+        titulo: '',
         descricao: 'Ano e local de criação: 2024, Balneário Camboriú – SC.',
         tecnica: 'Técnica: Spray e acrílica sobre tela ',
         dimensoes: 'Dimensões: 42x82cm ',
     },
     {
         src: Img31,
-         titulo: 'Raízes do coração',
+        titulo: 'Raízes do coração',
         descricao: 'Ano e local de criação: 2024, Balneário Camboriú – SC.',
         tecnica: 'Técnica: Acrílica sobre tela ',
         dimensoes: 'Dimensões: 37x38,5cm ',
@@ -254,39 +263,41 @@ function Disponivel() {
     };
 
     return (
-        <main>
-            <div className='container'>
-                <h2>Artes Disponíveis</h2>
-                <div className='row'>
-                    {artes.map((art, index) => (
-                        <img
-                            key={index}
-                            src={art.src}
-                            className='disponivel overlay'
-                            onClick={() => handleClick(art)}
-                            alt={art.titulo}
-                        />
-                    ))}
-                </div>
-            </div>
+        <div className='alinhar-footer'>
 
-            {arteSelecionada && (
-                <div className='overlay-container' onClick={handleOverlayClick}>
-                    <div className='overlay-content'>
-                        <img src={arteSelecionada.src} alt={arteSelecionada.titulo} className='imagem-content'/>
-                        <div className='ajustar'>
-                            <h1>{arteSelecionada.titulo}</h1>
-                            <p className='p'>{arteSelecionada.descricao}</p>
-                            <p className='p'>{arteSelecionada.tecnica}</p>
-                            <p className='p'>{arteSelecionada.dimensoes}</p>
-                            <div className='botao'>
+            <main>
+                <div className='container'>
+                    <h2>Artes Disponíveis</h2>
+                    <div className='row'>
+                        {artes.map((art, index) => (
+                            <img
+                                key={index}
+                                src={art.src}
+                                className='disponivel overlay'
+                                onClick={() => handleClick(art)}
+                                alt={art.titulo}
+                            />
+                        ))}
+                    </div>
+                </div>
+
+                {arteSelecionada && (
+                    <div className='overlay-container' onClick={handleOverlayClick}>
+                        <div className='overlay-content'>
+                            <img src={arteSelecionada.src} alt={arteSelecionada.titulo} className='imagem-content' />
+                            <div className='ajustar'>
+                                <h1>{arteSelecionada.titulo}</h1>
+                                <p className='p'>{arteSelecionada.descricao}</p>
+                                <p className='p'>{arteSelecionada.tecnica}</p>
+                                <p className='p'>{arteSelecionada.dimensoes}</p>
+                                <p className='p'>{arteSelecionada.ano}</p>
                                 <WhatsAppButton produto={arteSelecionada.titulo + arteSelecionada.tecnica + arteSelecionada.dimensoes} />
                             </div>
                         </div>
                     </div>
-                </div>
-            )}
-        </main>
+                )}
+            </main>
+        </div>
     );
 }
 

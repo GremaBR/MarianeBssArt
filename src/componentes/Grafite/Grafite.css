@@ -6,24 +6,6 @@
 }
 
 .grafite {
-    margin-bottom: 40px;
-    margin-top: 20px;
-    transition: transform 0.2s;
     width: 20%;
     height: 20%;
-}
-.row {
-    justify-content: center;
-    display: flex;
-    align-items: flex-start;
-}
-
-.horizontal {
-    width: 40%;
-    height: 30%;
-}
-
-.vertical {
-    width: 20%;
-    height: 30%;
 }

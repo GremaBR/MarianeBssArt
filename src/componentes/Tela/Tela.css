@@ -20,20 +20,8 @@ h2 {
 }
 
 .tela {
-    margin-bottom: 40px;
-    margin-top: 20px;
+    margin-bottom: 5px;
     transition: transform 0.2s;
     width: 20%;
-    height: 20% auto;
-}
-
-.row {
-    justify-content: center;
-    display: flex;
-    align-items: flex-start;
-}
-
-.horizontal {
-    width: 25%;
-    height: 25%;
+    height: 20% ;
 }

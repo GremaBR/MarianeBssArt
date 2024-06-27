@@ -5,10 +5,9 @@
     --preto: #0000;
 }
 
-h2 {
-    font-family: "Quicksand", sans-serif;
-    font-weight: bold;
-    color: var(--marrom);
+.overlay {
+    margin: 10px; 
+    cursor: pointer; 
 }
 
 .disponivel {
@@ -22,17 +21,6 @@ h2 {
     transform: scale(1.05);
 }
 
-.row {
-    justify-content: center;
-    display: flex;
-    align-items: flex-start;
-}
-
-.horizontal {
-    width: 30%;
-    height: 30%;
-}
-
 .overlay-container {
     position: fixed;
     top: 0;
@@ -44,6 +32,7 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+
 .overlay-content {
     background: #DBDAD6;
     border-radius: 8px;
@@ -55,6 +44,8 @@ h2 {
     justify-content: center;
     padding: 1%;
 }
+
+
 
 .imagem-content {
     display: flex;
@@ -93,6 +84,7 @@ h1 {
     align-self: start;
     font-family: Quicksand;
 }
+
 
 @media (max-width: 1280px) {
     .overlay-content {
@@ -188,22 +180,3 @@ h1 {
     }
 }
 
-.encomendar {
-    background-color: var(--marrom);
-    color: #fff;
-    padding: 8px 8px;
-    border: none;
-    border-radius: 50px;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 24px;
-    margin-top: 20px;
-    font-family: Quicksand;
-    max-width: 300px;
-}
-
-.botao {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}

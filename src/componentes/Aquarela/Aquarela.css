@@ -5,35 +5,9 @@
     --preto: #0000;
 }
 
-.container {
-    text-align: center;
-    padding: 5%;
-    width: 100%;
-    flex-direction: column;
-}
-
-h2 {
-    font-family: "Quicksand", sans-serif;
-    font-weight: bold;
-    color: var(--marrom);
-    margin-bottom: 20px;
-    align-self: start;
-}
-
 .aquarela {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     transition: transform 0.2s;
     width: 20%;
     height: 20% auto;
-}
-
-.row {
-    justify-content: center;
-    display: flex;
-    align-items: flex-start;
-}
-
-.horizontal {
-    width: 40%;
-    height: 40%;
 }

@@ -1,9 +1,9 @@
 :root {
-    --marrom: #52402A;
-    --azul-claro: #D4E1E9;
-    --branco: #FFFFFF;
-    --preto: #0000;
-  }
+  --marrom: #52402A;
+  --azul-claro: #D4E1E9;
+  --branco: #FFFFFF;
+  --preto: #0000;
+}
 
 
 .bg-body-tertiary,
@@ -12,11 +12,11 @@
   padding: 0;
 }
 
-header{
+header {
   max-width: 100%;
 }
 
-.header{
+.header {
   padding: 0;
   margin: 0%;
   width: 100%;
@@ -26,53 +26,54 @@ header{
   align-items: center;
 }
 
-.img-header{
+.img-header {
   padding: 10px;
   width: 80%;
   height: 80%;
 }
-.navbar-toggler,.navbar-toggler-icon {
-    border: none;
-  }
-  
-  .offcanvas.offcanvas-start {
-    max-width: 300px;
-  }
-  
-  .logo-sidebar {
-    max-width: 90px;
-    margin-left: auto;
-  }
-  
-  .nav-link,
-  .nav-item {
-    font-weight: 600;
-  }
-  
-  .item.nav-link {
-    background-color: var(--azul-claro);
-    margin-bottom: 8px;
-    border-radius: 8px;
-    padding: 10px;
-  }
 
-form .Button{
+.navbar-toggler,
+.navbar-toggler-icon {
+  border: none;
+}
+
+.offcanvas.offcanvas-start {
+  max-width: 300px;
+}
+
+.logo-sidebar {
+  max-width: 90px;
+  margin-left: auto;
+}
+
+.nav-link,
+.nav-item {
+  font-weight: 600;
+}
+
+.item.nav-link {
+  background-color: var(--azul-claro);
+  margin-bottom: 8px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+form .Button {
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
-  padding: 15px ;
+  padding: 15px;
   font-size: 90%;
   margin-right: 10px;
   width: 100%;
 }
-  
-  .Button {
-    background-color: var(--marrom);
-    color: var(--branco);
-    border-radius: 50px;
-    font-family: "DM Sans";
-    border: none;
-    text-decoration: none;
-  }
-  
+
+.Button {
+  background-color: var(--marrom);
+  color: var(--branco);
+  border-radius: 50px;
+  font-family: "DM Sans";
+  border: none;
+  text-decoration: none;
+}

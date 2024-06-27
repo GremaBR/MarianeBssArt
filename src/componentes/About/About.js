@@ -9,23 +9,22 @@ import tituloAbout from "../../img/Mariane Basseggio.png"
 
 function About() {
     return (
-        <main className='mainAbout'>
-            <div className="container mt-5 tudo">
-                <div className="row g-0">
-                    <div className="col-md-4 d-flex align-items-center justify-content-center alinhar">
-                        <img src={AboutImg} className="img-fluid rounded-circle imagem" alt="Mariane Basseggio" />
+        <main className='container'>
+            <div className="container">
+                <div className="row justify-content-center align-items-center">
+                    <div className="col-md-4 d-flex flex-column align-items-center justify-content-center mb-4 mx-auto">
+                        <img src={AboutImg} className="img-fluid rounded-circle mb-3" alt="Mariane Basseggio" />
                         <div className="contact-info text-center">
-                            <a className="footer-link" href="#">
-                                <img src={iconFone} alt="Fone Icon" />
+                            <a className="footer-link d-flex align-items-center mb-2" href="#">
+                                <img src={iconFone} className="me-2" alt="Fone Icon" />
                                 +55 (47) 988719165
                             </a>
-
-                            <a className="footer-link" href="#">
-                                <img src={iconEmail} alt="Email Icon" />
+                            <a className="footer-link d-flex align-items-center mb-2" href="#">
+                                <img src={iconEmail} className="me-2" alt="Email Icon" />
                                 marianebasseggio@gmail.com
                             </a>
-                            <a className="footer-link" href="https://www.instagram.com/mariane_bss_art/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">
-                                <img src={iconInstagram} alt="Instagram Icon" />
+                            <a className="footer-link d-flex align-items-center" href="https://www.instagram.com/mariane_bss_art/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">
+                                <img src={iconInstagram} className="me-2" alt="Instagram Icon" />
                                 @mariane_bss_art
                             </a>
                         </div>
@@ -36,7 +35,7 @@ function About() {
                             <img src={tituloAbout} className="img-fluid" alt="Mariane Basseggio" />
                             <p className="card-text text-center">
                                 <hr className='Hr '></hr>
-                        
+
                                 Mariane Basseggio traz reflexões sobre momentos
                                 de nossa vida de maneira cativante construindo pinceladas de encher os olhos com suas cores e movimentos.
                             </p>

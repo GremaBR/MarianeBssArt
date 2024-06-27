@@ -11,12 +11,16 @@ function Grafite() {
         <main>
             <div className='container'>
                 <h2>Grafite</h2>
-                <div className='row'>
-                    <img src={Grafite1} className='grafite vertical' />
-
-                    <img src={Grafite2} className='grafite vertical' />
-
-                    <img src={Grafite3} className='grafite vertical' />
+                <div className='row justify-content-center'>
+                    <div className='col-md-4'>
+                        <img src={Grafite1} className='img-fluid' alt='Grafite 1' />
+                    </div>
+                    <div className='col-md-4'>
+                        <img src={Grafite2} className='img-fluid' alt='Grafite 2' />
+                    </div>
+                    <div className='col-md-4'>
+                        <img src={Grafite3} className='img-fluid' alt='Grafite 3' />
+                    </div>
                 </div>
             </div>
         </main>

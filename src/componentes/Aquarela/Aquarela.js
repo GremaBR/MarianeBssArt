@@ -16,7 +16,7 @@ function Aquarela() {
         <main>
             <div className='container'>
                 <h2>Aquarela</h2>
-                <div className='row'>
+                <div className='row justify-content-center'>
                     <img src={Aquarela3} className='aquarela vertical' />
 
                     <img src={Aquarela4} className='aquarela vertical' />

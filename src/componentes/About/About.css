@@ -11,24 +11,14 @@
 
 }
 .contact-info .footer-link {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: inherit;
     color: var(--marrom);
 }
 
 .contact-info{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .text-center {
     color: var(--marrom);
     font-size: 20px;
-}
-
-.Hr {
-    color: var(--marrom);
-    display: flex;
-    margin-bottom: 24px;
 }
