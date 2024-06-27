@@ -1,10 +1,6 @@
-:root {
-  --marrom: #52402A;
-  --azul-claro: #D4E1E9;
-  --branco: #FFFFFF;
-  --preto: #0000;
-}
-
-main{
-  height: 100vh;
+.corpo {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

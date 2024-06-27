@@ -1,19 +1,7 @@
-:root {
-  --marrom: #52402A;
-  --azul-claro: #D4E1E9;
-  --branco: #FFFFFF;
-  --preto: #0000;
-}
-
-
 .bg-body-tertiary,
 .container-fluid {
   background-color: var(--azul-claro);
   padding: 0;
-}
-
-header {
-  max-width: 100%;
 }
 
 .header {
@@ -24,6 +12,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 5%;
 }
 
 .img-header {

@@ -3,7 +3,6 @@ import iconEmail from "../../img/icons/email.png";
 import iconEndereco from "../../img/icons/endereco.png";
 import iconInstagram from "../../img/icons/instagram.png";
 import "./Footer.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function Footer() {
@@ -12,7 +11,7 @@ function Footer() {
       <div class="container">
       <div class="row">
           <div class="col-md-6">
-            <p class="mariane-footer display-flex">
+            <p class="mariane-footer mari">
               Mariane BSS Art
             </p>
             <p className="display-flex">

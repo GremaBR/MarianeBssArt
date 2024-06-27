@@ -7,14 +7,11 @@ import IconLapis from '../../img/icons/lapis.png';
 import IconCompra from '../../img/icons/comprar.png';
 import './Header.css';
 import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
 
 function Header() {
     return (
         <header>
-            <nav class="navbar bg-body-tertiary top">
+            <nav class="navbar top">
                 <div class="container-fluid">
                     <div class="header">
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
