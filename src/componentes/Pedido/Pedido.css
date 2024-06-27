@@ -1,19 +1,24 @@
-/* Estilo para o botão */
-button {
-    background-color: #25D366; /* Cor do botão do WhatsApp */
-    color: #fff; /* Cor do texto */
-    padding: 10px 20px; /* Espaçamento interno */
-    font-size: 16px; /* Tamanho da fonte */
-    border: none; /* Sem borda */
-    cursor: pointer; /* Cursor ao passar */
-    border-radius: 5px; /* Borda arredondada */
-    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
-  
-    /* Ajustes adicionais conforme necessário */
+:root {
+    --marrom: #52402A;
+    --azul-claro: #D4E1E9;
+    --branco: #FFFFFF;
+    --preto: #0000;
+}
+
+.button-pedido {
+    background-color: #52402A; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+
   }
   
-  /* Estilo para o botão ao passar o mouse */
-  button:hover {
-    background-color: #128C7E; /* Cor de fundo ao passar o mouse */
+
+  .button-pedido:hover {
+    background-color: #2e1e01; 
   }
   

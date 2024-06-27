@@ -13,8 +13,8 @@ footer {
   color: var(--branco);
   bottom: 0;
   margin: 0;
-  text-align: center;
   margin-top: auto;
+  display: flex;
 }
 
 .footer-link {

@@ -14,7 +14,7 @@ const WhatsAppButton = ({ produto, tecnica, dimensoes }) => {
   };
 
   return (
-    <button onClick={handleClick}>Fazer Pedido via WhatsApp</button>
+    <button onClick={handleClick} class="button-pedido">Encomendar via WhatsApp</button>
   );
 }
 
