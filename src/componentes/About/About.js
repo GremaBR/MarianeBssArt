@@ -27,7 +27,7 @@ function About() {
                     </div>
                 </div>
 
-                <div className="col-md-8">
+                <div className="col-md-8 ">
                     <div className="card-body">
                         <img src={tituloAbout} className="img-fluid" alt="Mariane Basseggio" />
                         <p className="card-text text-center">

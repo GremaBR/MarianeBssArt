@@ -1,7 +1,6 @@
 .alinhar{
     display: flex;
     flex-direction: column;
-
 }
 .contact-info .footer-link {
     color: var(--marrom);
@@ -14,4 +13,13 @@
 .text-center {
     color: var(--marrom);
     font-size: 20px;
+}
+
+.espacamento {
+    margin: 3%
+}
+
+.img-fluid {
+    max-width: 90%;
+    min-width: none;
 }

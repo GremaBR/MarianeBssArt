@@ -21,9 +21,12 @@
   height: 80%;
 }
 
-.navbar-toggler,
-.navbar-toggler-icon {
-  border: none;
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
 }
 
 .offcanvas.offcanvas-start {
