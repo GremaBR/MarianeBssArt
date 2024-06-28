@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer>
       <div class="container">
-      <div class="row">
+        <div class="row">
           <div class="col-md-6">
             <p class="mariane-footer mari">
               Mariane BSS Art
@@ -22,7 +22,7 @@ function Footer() {
 
           <div class="col-md-6 ">
             <p class="contatos"> CONTATOS </p>
-            <hr className="hrFooter"/>
+            <hr className="hrFooter" />
             <a class="footer-link" href="https://www.instagram.com/mariane_bss_art/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">
               <img src={iconInstagram} alt="Instagram Icon" />
               @mariane_bss_art
@@ -33,12 +33,12 @@ function Footer() {
               marianebasseggio@gmail.com
             </a>
 
-            <a class="footer-link"  href="tel:+5547988719165">
+            <a class="footer-link" href="tel:+5547988719165">
               <img src={iconFone} alt="Fone Icon" />
               +55 (47) 988719165
             </a>
 
-            <a class="footer-link">
+            <a class="footer-link" href="https://www.google.com/maps/search/?api=1&query=Balneário+Camboriú,+SC,+Brasil" target="_blank">
               <img src={iconEndereco} alt="Endereco Icon" />
               Balneário Camboriú, SC, Brasil
             </a>
