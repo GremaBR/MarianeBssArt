@@ -12,18 +12,23 @@ function About() {
                 <div className="col-md-4 d-flex flex-column align-items-center justify-content-center mb-4 mx-auto">
                     <img src={AboutImg} className="img-fluid rounded-circle mb-3" alt="Mariane Basseggio" />
                     <div className="contact-info text-center">
-                        <a className="footer-link d-flex align-items-center mb-2" href="#">
-                            <img src={iconFone} className="me-2" alt="Fone Icon" />
-                            +55 (47) 988719165
-                        </a>
-                        <a className="footer-link d-flex align-items-center mb-2" href="#">
-                            <img src={iconEmail} className="me-2" alt="Email Icon" />
-                            marianebasseggio@gmail.com
-                        </a>
-                        <a className="footer-link d-flex align-items-center" href="https://www.instagram.com/mariane_bss_art/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">
-                            <img src={iconInstagram} className="me-2" alt="Instagram Icon" />
+
+
+                        <a class="footer-link" href="https://www.instagram.com/mariane_bss_art/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">
+                            <img src={iconInstagram} alt="Instagram Icon" />
                             @mariane_bss_art
                         </a>
+
+                        <a class="footer-link" href="mailto:marianebasseggio@gmail.com">
+                            <img src={iconEmail} alt="Email Icon" />
+                            marianebasseggio@gmail.com
+                        </a>
+
+                        <a class="footer-link" href="tel:+5547988719165">
+                            <img src={iconFone} alt="Fone Icon" />
+                            +55 (47) 988719165
+                        </a>
+
                     </div>
                 </div>
 
