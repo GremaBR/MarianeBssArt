@@ -261,20 +261,20 @@ function Disponivel() {
 
     return (
         <div className='alinhar-footer text-center'>
-        <div className='container'>
-          <h2>Artes Disponíveis</h2>
-          <div className='row justify-content-center'>
-            {artes.map((art, index) => (
-              <img
-                key={index}
-                src={art.src}
-                className='disponivel overlay'
-                onClick={() => handleClick(art)}
-                alt={art.titulo}
-              />
-            ))}
-          </div>
-        </div>
+            <div className='container'>
+                <h2>Artes Disponíveis</h2>
+                <div className='row justify-content-center'>
+                    {artes.map((art, index) => (
+                        <img
+                            key={index}
+                            src={art.src}
+                            className='disponivel overlay'
+                            onClick={() => handleClick(art)}
+                            alt={art.titulo}
+                        />
+                    ))}
+                </div>
+            </div>
 
             {arteSelecionada && (
                 <div className='overlay-container' onClick={handleOverlayClick}>
@@ -286,11 +286,11 @@ function Disponivel() {
                             <p className='p'>{arteSelecionada.tecnica}</p>
                             <p className='p'>{arteSelecionada.dimensoes}</p>
                             <p className='p'>{arteSelecionada.ano}</p>
-                            <WhatsAppButton 
-                titulo={arteSelecionada.titulo} 
-                tecnica={arteSelecionada.tecnica} 
-                dimensoes={arteSelecionada.dimensoes} 
-              />
+                            <WhatsAppButton
+                                titulo={arteSelecionada.titulo}
+                                tecnica={arteSelecionada.tecnica}
+                                dimensoes={arteSelecionada.dimensoes}
+                            />
                         </div>
                     </div>
                 </div>
