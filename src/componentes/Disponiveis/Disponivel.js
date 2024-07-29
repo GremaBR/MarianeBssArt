@@ -286,7 +286,11 @@ function Disponivel() {
                             <p className='p'>{arteSelecionada.tecnica}</p>
                             <p className='p'>{arteSelecionada.dimensoes}</p>
                             <p className='p'>{arteSelecionada.ano}</p>
-                            <WhatsAppButton produto={arteSelecionada.titulo + arteSelecionada.tecnica + arteSelecionada.dimensoes} />
+                            <WhatsAppButton 
+                titulo={arteSelecionada.titulo} 
+                tecnica={arteSelecionada.tecnica} 
+                dimensoes={arteSelecionada.dimensoes} 
+              />
                         </div>
                     </div>
                 </div>
